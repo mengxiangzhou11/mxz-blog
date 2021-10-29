@@ -4,7 +4,9 @@
 3,npm run serve
 #https://element.eleme.io/?ref=madewithvuejs.com#/zh-CN/component/installation
 
-
+#git 方法
+git tag -a v1.0.1 -m "第一版"
+git push origin v1.0.1
 
 
 
@@ -29,3 +31,8 @@ taskkill /IM "nginx.exe" /F
 先启动fast-cgi，再配置nginx.conf
 tp框架：
  .\php-cgi.exe -b 127.0.0.1:9001 -c php.ini
+
+ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+ composer require bowmansir/generalcode ^1.0
+ composer require mxz/blog v1.0.8
+
