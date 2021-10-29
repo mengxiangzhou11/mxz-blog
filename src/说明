@@ -1,0 +1,31 @@
+前端vue：
+1,修改项目名
+2,npm install
+3,npm run serve
+#https://element.eleme.io/?ref=madewithvuejs.com#/zh-CN/component/installation
+
+
+
+
+
+nginx部署
+
+cmd 进入Nginx解压目录 执行以下命令
+
+start nginx : 启动nginx服务
+
+nginx -s reload  ：修改配置后重新加载生效
+
+nginx -s reopen  ：重新打开日志文件
+nginx -t -c /path/to/nginx.conf 测试nginx配置文件是否正确
+
+启动后如何检查是否启动成功呢？ 输入命令 tasklist /fi "imagename eq nginx.exe"   看到以下信息说明启动成功了
+
+
+#kill 进程
+taskkill /IM "nginx.exe" /F
+
+
+先启动fast-cgi，再配置nginx.conf
+tp框架：
+ .\php-cgi.exe -b 127.0.0.1:9001 -c php.ini

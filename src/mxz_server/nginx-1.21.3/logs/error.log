@@ -1,0 +1,45 @@
+2021/10/29 15:33:21 [error] 32732#22028: *1 CreateFile() "D:\code\kaoshi\nginx\nginx-1.21.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8010", referrer: "http://localhost:8010/"
+2021/10/29 15:44:37 [notice] 30860#34896: signal process started
+2021/10/29 15:47:00 [notice] 35268#26332: signal process started
+2021/10/29 15:47:10 [notice] 31864#33092: signal process started
+2021/10/29 15:47:10 [error] 31864#33092: CreateFile() "D:\code\kaoshi\nginx\nginx-1.21.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/29 15:56:09 [emerg] 11896#9884: CreateFile() "D:/path/to/nginx.conf" failed (3: The system cannot find the path specified)
+2021/10/29 15:56:36 [error] 35012#34396: *1 directory index of "D:/code/kaoshi/ajax/hd/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8010"
+2021/10/29 15:57:07 [notice] 20604#35640: signal process started
+2021/10/29 15:57:20 [error] 35012#34396: *2 directory index of "D:/code/kaoshi/ajax/hd/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8010"
+2021/10/29 15:57:22 [error] 27220#35764: *3 directory index of "D:/code/kaoshi/ajax/hd/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8010"
+2021/10/29 15:58:23 [notice] 31976#22280: signal process started
+2021/10/29 16:06:55 [notice] 29520#33468: signal process started
+2021/10/29 16:11:02 [notice] 26692#27212: signal process started
+2021/10/29 16:43:23 [emerg] 28096#23956: unknown directive "//" in D:\code\kaoshi\nginx\nginx-1.21.3/conf/nginx.conf:110
+2021/10/29 16:43:39 [notice] 35364#28756: signal process started
+2021/10/29 16:44:32 [notice] 12168#13876: signal process started
+2021/10/29 16:45:08 [notice] 11512#28064: signal process started
+2021/10/29 16:48:32 [emerg] 33000#23452: unexpected ";" in D:\code\kaoshi\nginx\nginx-1.21.3/conf/nginx.conf:84
+2021/10/29 16:48:41 [notice] 34360#25904: signal process started
+2021/10/29 16:48:47 [error] 18780#32540: *49 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8090"
+2021/10/29 16:53:11 [notice] 10628#9072: signal process started
+2021/10/29 16:54:18 [notice] 30288#16036: signal process started
+2021/10/29 16:54:35 [notice] 32796#30532: signal process started
+2021/10/29 16:57:28 [error] 26164#23608: *53 CreateFile() "D:/code/kaoshi/ajax/hd/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8010", referrer: "http://127.0.0.1:8010/"
+2021/10/29 16:58:17 [notice] 30844#33612: signal process started
+2021/10/29 16:59:48 [notice] 33680#23132: signal process started
+2021/10/29 17:01:52 [notice] 28028#8508: signal process started
+2021/10/29 17:02:35 [notice] 30212#13548: signal process started
+2021/10/29 17:04:02 [notice] 21368#27176: signal process started
+2021/10/29 17:05:01 [notice] 7416#25304: signal process started
+2021/10/29 17:12:57 [notice] 23236#23024: signal process started
+2021/10/29 17:12:59 [error] 31436#23612: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:13:27 [error] 27108#1124: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:13:51 [error] 27108#1124: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:14:06 [error] 27108#1124: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:14:19 [error] 27108#1124: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:22:01 [error] 27108#1124: *6 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:22:02 [error] 27108#1124: *6 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:22:03 [error] 27108#1124: *6 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8070"
+2021/10/29 17:24:19 [notice] 34400#31180: signal process started
+2021/10/29 17:25:12 [error] 16036#19072: *12 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "localhost:8070"
+2021/10/29 18:07:07 [notice] 30024#30892: signal process started
+2021/10/29 18:09:06 [notice] 35704#19884: signal process started
+2021/10/29 18:22:49 [notice] 11512#8280: signal process started
+2021/10/29 18:23:37 [notice] 28144#13800: signal process started
