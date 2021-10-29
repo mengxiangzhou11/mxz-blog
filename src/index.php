@@ -11,5 +11,7 @@ class Hello
         ];
         dd($data);
         print_r("测试第一版");
+        print_r("测试第一版");
+        print_r("测试第一版");
     }
 }
