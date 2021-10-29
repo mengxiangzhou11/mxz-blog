@@ -6,5 +6,6 @@
             "Mxz\\Blog\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "require": {}
 }
