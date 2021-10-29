@@ -1,0 +1,10 @@
+{
+    "name": "mxz/blog",
+    "description": "this is good",
+    "autoload": {
+        "psr-4": {
+            "Mxz\\Blog\\": "src/"
+        }
+    },
+    "require": {},
+}
