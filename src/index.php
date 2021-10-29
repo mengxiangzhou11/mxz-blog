@@ -13,5 +13,6 @@ class Hello
         print_r("测试第一版");
         print_r("测试第一版");
         print_r("测试第一版");
+        print_r("测试第四版");
     }
 }
