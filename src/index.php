@@ -10,5 +10,6 @@ class Hello
             1, 2, 3, 4
         ];
         dd($data);
+        print_r("测试第一版");
     }
 }
